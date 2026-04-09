@@ -1,10 +1,4 @@
-
----
-
-## 📉 Customer Churn Prediction – README.md
-
-```markdown
-# Customer Churn Prediction
+ # Customer Churn Prediction
 
 A data science project to predict customer churn using machine learning techniques.
 
@@ -27,7 +21,21 @@ A data science project to predict customer churn using machine learning techniqu
 
 ---
 
-## 📋 Usage
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/AryanJayanthPalyam/customer-churn-prediction.git
+## 📋 Prerequisites
+- Python 3.8+  
+- Required libraries in `requirements.txt`  
+
+---
+
+## 🚀 Quick Start
+
+```bash
+# Clone the Repository
+git clone https://github.com/AryanJayanthPalyam/customer-churn-prediction.git
+cd customer-churn-prediction
+
+# Install Dependencies
+pip install -r requirements.txt
+
+# Run Training Script
+python train_model.py
